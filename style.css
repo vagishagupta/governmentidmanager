@@ -1,0 +1,243 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;	
+}
+
+/* LOGIN PAGE */
+#login1{
+	background-image: url('b4.jpg');
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+}
+#logintext{
+	font-family: 'Overpass', sans-serif;
+	font-size: 25px;
+	color: black;
+	margin: 5%;
+	padding:9% 5%;
+	float: left;
+	display: inline-block;
+	width: 25%;
+}
+#qoute{
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	padding:10% 0%;
+	font-style: bold;
+}
+#login{
+	opacity: 0.9;
+	font-family: 'Overpass', sans-serif;
+	background-color: white;
+	float: left;
+	width: 30%;
+	margin:10% 5%;
+	padding: 3%;
+	display: inline-block;
+	border-radius: 10px;
+}
+#login label{
+	color: black;
+	font-family: 'Overpass', sans-serif;
+	padding: 10% 0%
+}
+#login input{
+  width: 95%;
+  padding: 2.5% ;
+  margin: 5% 0 6% 0;
+  display: block;
+  border:inset;
+  background: #CDCDCD;
+  font-size: 15px;
+}
+.signin, .signup{
+	padding:2% 2%;
+  float: left;
+  width: 50%;
+  margin: 3% 0%;
+  display: block;
+  border: none;
+  border:outset;
+}
+.signin{
+	background-color:	#8FBC8F;
+}
+.signup{
+	background-color: #aaa;
+	color: black;
+}
+#login input[type=password]:focus, input[type=email]:focus{
+  background-color: #CDCDCD;
+  outline: none;
+}
+/* Registration Page*/
+#reg1{
+	background-image: url(b5.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+}
+.register{opacity: 0.9;
+	font-family: 'Overpass', sans-serif;
+	background-color: white;
+	float: left;
+	width: 60%;
+	margin:5% 15%;
+	padding: 3%;
+	display: inline-block;
+	border-radius: 10px;
+}
+.register h1{
+	text-align: center;
+}
+#table{
+	margin: 40px 0px;
+	width: 100%;
+	}
+#table th{
+	width: 20%;
+	text-align: left;
+	margin: 5% 2%;
+	font-size: 18px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+#td{
+	text-align: center;
+	margin: 1% 1%;
+	font-family: 'Inconsolata', monospace;
+	width: 100%;
+}
+#radio{
+	text-align: center;
+	margin: 1% 1%;
+	width: 30%;
+	font-family: 'Inconsolata', monospace;
+}
+#table input{
+	text-align: center;
+	margin: 2% 2%;
+	padding: 3%;
+	font-family: 'Inconsolata', monospace;
+	width: 90%;
+}
+#table input[type='radio']
+{
+	margin: 1%;
+	padding: 1%;
+	width: 10%;
+}
+.signupbtn, .cancelbtn{
+	width: 49.5%;
+	text-decoration: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 2.5%;
+	text-align: center;
+	font-size: 15px;
+	margin: 2% 0%;
+	opacity: 0.8;
+}
+.cancelbtn{
+	background-color: red;
+}
+.signupbtn{
+	background-color: green;
+}
+.signupbtn:hover, .cancelbtn:hover{
+	opacity: 1;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width:300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.head_file{
+	background:#B0B2FF;
+	width: 100%;
+	float: left;
+	color: white;
+}
+.head_file div{
+	color:white;
+	margin:1%;
+}
+.head_file a{
+	color: white;
+}
+#c{
+	position: relative;
+	top: 45px;
+	background-color: #11154D;
+	list-style-type: none;
+	padding:20px 20px;
+	width: 100%;
+}
+#c li{
+	display: inline;
+	color: white;
+}
+#c li a.item-menu{
+	list-style-type: none;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+#c li a:hover{
+    color:#bbb;
+}
+#c li a:hover:not(.active) {
+    color:white;
+}
+
+#aadhar h1{
+	padding: 60px;
+	text-align: center;
+	
+}
+#left{
+	width: 30%;
+	padding:0% 5%;
+	float: left;
+}
+#right{
+	width: 45%;
+	padding:0% 5%;
+	float: left;
+}
+#pan h1{
+	padding: 60px;
+	text-align: center;	
+}
+#passport h1{
+	padding: 60px;
+	text-align: center;
+}
+#detail{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	padding: 20px;
+}
+#logout {
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+}
+#logout a{
+	color: #11154D;
+}
+#logout a:hover{
+	color: white;
+}
